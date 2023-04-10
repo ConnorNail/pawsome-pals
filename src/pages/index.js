@@ -9,7 +9,7 @@ export default function LandingPage() {
       <Head>
         <title>Pawsome Pals Coloring Book</title>
         <link rel="icon" href="/favicon.ico" />
-        <noscript><img height="1" width="1" style="display:none"
+        <noscript><img alt="facebook" height="1" width="1" style={{ display: "none" }}
           src="https://www.facebook.com/tr?id=1500716207122439&ev=PageView&noscript=1"
         /></noscript>
       </Head>
@@ -56,7 +56,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
           <h2 className="text-xl font-bold mb-2">What Customers Are Saying:</h2>
           <div className="">
             <p className="text-lg mr-4">
-              "I just received my coloring book and was awe-struck by the images on the page. I cannot wait until work is over and I am able to add some color to the pups on each page! Thank you for creating this fun and beautiful book!" - LoriAnne
+              &quot;I just received my coloring book and was awe-struck by the images on the page. I cannot wait until work is over and I am able to add some color to the pups on each page! Thank you for creating this fun and beautiful book!&quot; - LoriAnne
             </p>
             <div className="flex items-center py-2">
               <FaStar className="text-yellow-500 mr-1" />
