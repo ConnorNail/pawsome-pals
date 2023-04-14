@@ -68,20 +68,31 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                 className="rounded-md object-cover cursor-pointer"
                 onClick={handleClick}
               />
-              {currentPage === 1 && (
-                <Lottie
-                  animationData={click}
-                  loop={true}
-                  style={{
-                    width: '150px',
-                    height: '150px',
-                    position: 'absolute',
-                    bottom: '-50px',
-                    right: '-70px',
-                    transform: 'rotate(-25deg)',
-                  }}
-                />
-              )}
+              {/* {currentPage === 1 && ( */}
+              <Lottie
+                animationData={click}
+                loop={true}
+                style={{
+                  width: "150px",
+                  height: "150px",
+                  position: "absolute",
+                  bottom: "-50px",
+                  right: "-70px",
+                  transform: "rotate(-25deg)",
+                }}
+              />
+              {/* )} */}
+              <p
+                className="text-xl font-bold mb-4"
+                style={{
+                  position: "absolute",
+                  bottom: "-50px",
+                  left: "50%",
+                  transform: "translateX(-50%)",
+                }}
+              >
+                Page {currentPage} / 10
+              </p>
             </div>
           </div>
         </div>
