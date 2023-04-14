@@ -3,13 +3,15 @@ import Image from "next/image";
 import Script from "next/script";
 import { FaStar } from "react-icons/fa";
 import { useState } from "react";
+import Lottie from "lottie-react";
+import click from "../click.json";
 
 export default function LandingPage() {
   const [currentPage, setCurrentPage] = useState(1);
 
   const handleClick = () => {
     setCurrentPage((prevPage) => (prevPage === 10 ? 1 : prevPage + 1));
-    console.log(currentPage)
+    console.log(currentPage);
   };
 
   return (
@@ -66,6 +68,20 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                 className="rounded-md object-cover cursor-pointer"
                 onClick={handleClick}
               />
+              {currentPage === 1 && (
+                <Lottie
+                  animationData={click}
+                  loop={true}
+                  style={{
+                    width: '150px',
+                    height: '150px',
+                    position: 'absolute',
+                    bottom: '-50px',
+                    right: '-70px',
+                    transform: 'rotate(-25deg)',
+                  }}
+                />
+              )}
             </div>
           </div>
         </div>
