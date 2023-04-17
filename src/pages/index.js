@@ -21,25 +21,24 @@ export default function LandingPage() {
         <link rel="icon" href="/favicon.ico" />
         <noscript>
           <img
-            alt="facebook"
             height="1"
             width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1500716207122439&ev=PageView&noscript=1"
+            style="display:none"
+            src="https://www.facebook.com/tr?id=530891389208450&ev=PageView&noscript=1"
           />
         </noscript>
       </Head>
       <Script id="fb-ads" strategy="afterInteractive">
         {`!function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod ?
-            n.callMethod.apply(n, arguments) : n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '1500716207122439');
-          fbq('track', 'PageView');`}
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '530891389208450');
+  fbq('track', 'PageView');`}
       </Script>
       <main className="container mx-auto px-4 py-8 md:p-12">
         <div className="flex flex-col md:flex-row">
